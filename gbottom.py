@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
 CORS(app)
 
-kmeans_model = joblib.load('cbottom_kmeans_model.pkl')  # Changed from ctop_kmeans_model.pkl
+kmeans_model = joblib.load('gbottom_kmeans_model.pkl')  # Changed from ctop_kmeans_model.pkl
 scaler = None
 learning_data = None
 
